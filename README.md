@@ -1,5 +1,13 @@
 Yelp2018SentimentAnalysis
 
+Insights:
+
+Strippping punctuation seems to increase performance by 1% -> Better word tokenizing (Try Punkt tokenizer trained on text from nltk instead of default)
+
+Class-balancing nukes the accuracy by 5%.
+
+
+
 Ranking:
 
 1. 65.8%~~
@@ -38,9 +46,6 @@ _________________________________________________________________
 
 Predicting: Stars, Funny, Useful, Cool
 
-Insights:
-
-Strippping punctuation seems to increase performance by 1% -> Better word tokenizing (Try Punkt tokenizer trained on text from nltk instead of default)
 
 
 
